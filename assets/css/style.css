@@ -1,7 +1,9 @@
 body {
+  min-height: 100vh;
   background: hsl(225, 100%, 94%);
+  background-image: url(/assets/images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 1rem;
   display: grid;
   place-items: center;
@@ -14,7 +16,7 @@ body {
 }
 
 .card {
-  max-width: 320px;
+  max-width: 27rem;
   background: hsl(0, 0%, 100%);
   border-radius: 1.2rem;
   overflow: hidden;
@@ -117,8 +119,5 @@ body {
     background-image: url(/assets/images/pattern-background-desktop.svg);
     background-position: top;
     background-size: 100%;
-  }
-  .card {
-    max-width: 420px;
   }
 }
